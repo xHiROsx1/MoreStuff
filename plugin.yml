@@ -1,5 +1,11 @@
 name: MoreStuff
 main: co.thelostrealms.me.morestuff.MoreStuff
-version: 1.0
+version: 1.0.1
 description: >
              MoreStuff
+commands:
+  heal:
+    description: Heal yourself by typing this command.
+permissions:
+  morestuff.heal:
+    default: false
